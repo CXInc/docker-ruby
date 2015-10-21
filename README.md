@@ -6,7 +6,7 @@ A base image for Ruby projects.
 Usage
 -----
 
-    docker pull cxops/ruby
+    docker pull cxops/ruby:2.2.3
 
 Building
 --------
@@ -15,4 +15,4 @@ Building
     cd docker-ruby
     
     # Update the tag based on the latest Ruby version
-    docker build -t cxops/ruby:2.0.0-p481 .
+    docker build -t cxops/ruby:2.2.3 .
